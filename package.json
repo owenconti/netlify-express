@@ -1,0 +1,26 @@
+{
+  "name": "netlify-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "netlify-lambda": "^1.4.3",
+    "serverless-http": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owenconti/netlify-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owenconti/netlify-express/issues"
+  },
+  "homepage": "https://github.com/owenconti/netlify-express#readme"
+}

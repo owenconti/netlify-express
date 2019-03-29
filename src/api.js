@@ -16,4 +16,5 @@ console.log("isProduction", isProduction);
 
 app.use(`${isProduction ? "/.netlify/functions" : ""}/api`, router);
 
-exports.handler = servless(app);
+module.exports = app;
+module.exports.handler = serverless(app);

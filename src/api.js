@@ -12,6 +12,8 @@ router.get("/", (req, res) => {
   });
 });
 
+console.log("isProduction", isProduction);
+
 app.use(`${isProduction ? "/.netlify/functions" : ""}/api`, router);
 
 exports.handler = servless(app);

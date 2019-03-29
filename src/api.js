@@ -1,5 +1,5 @@
-import express from "express";
-import servless from "serverless-http";
+const express = require("express");
+const serverless = require("serverless-http");
 
 const isProduction = process.env.NODE_ENV === "production";
 

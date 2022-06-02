@@ -4,18 +4,24 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
     "netlify-lambda": "^1.4.3",
+    "paystack": "^2.0.1",
+    "qs": "^6.10.3",
     "serverless-http": "^1.9.1"
   },
-  "devDependencies": {},
   "scripts": {
+    "test": "node src/api.js",
     "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
     "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/owenconti/netlify-express.git"
+    "url": "git+https://github.com/SOPMAN5/Adlat-api.git"
   },
   "keywords": [],
   "author": "",

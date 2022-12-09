@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "netlify-lambda": "^1.4.3",
     "serverless-http": "^1.9.1"
   },
